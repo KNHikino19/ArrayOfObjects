@@ -2,7 +2,7 @@ class Mover {
   int x, y;
   Mover() {
     x = 0;
-    y = (int)(Math.random()*1000);
+    y = (int)(Math.random()*300);
   }
   void move() {
     x++;

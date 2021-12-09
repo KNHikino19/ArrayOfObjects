@@ -1,6 +1,6 @@
 Mover [] dots;
 void setup() {
-  size(1000, 1000);
+  size(300, 300);
   background(0);
   dots = new Mover[10];
   for (int i = 0; i < dots.length; i++)
